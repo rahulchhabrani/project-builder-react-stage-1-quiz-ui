@@ -1,0 +1,171 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat&display=swap');
+
+*
+{
+    margin-top: 50px;
+    background-color: rgb(68, 5, 185);
+    color: white;
+    font-size: 40px;
+    font-family: 'Montserrat', sans-serif;
+}
+
+#play-button
+{
+    margin-top: 30px;
+    width:300px;    
+    color: white;
+    cursor: pointer;
+    padding: 10px;
+    text-align: center;
+    text-decoration: none;
+    border-radius: 20px;
+    font-size: 40px;
+    font-weight: bold;
+    background-color: #57B846;
+}
+
+#quiz-main
+{
+    margin-top: 15%;
+}
+
+
+.container{
+    background-color: rgb(68, 5, 185);
+    display: flex;
+    flex-direction: column;
+    font-family: 'Montserrat', sans-serif;
+}
+.btncls
+{
+    cursor: pointer;
+    width: 400px;
+    margin: 10px;
+
+    padding: 10px;
+    background-color: #0F86CF;
+    border-radius: 20px;
+
+}
+
+#prev
+{
+    cursor: pointer;
+    padding: 10px;
+    background-color: #0F86CF;
+    border-radius: 20px;
+
+}
+
+#next
+{
+    cursor: pointer;
+    padding: 10px;
+    background-color: rgb(42, 201, 42);
+    border-radius: 20px;
+
+}
+#quit
+{
+    cursor: pointer;
+    padding: 10px;
+    background-color: rgb(241, 13, 13);
+    border-radius: 20px;
+
+}
+
+.options
+{
+    padding-top: 40px;
+    background-color: white;
+    display: grid;
+    grid-gap: 50px;
+    grid: 100px / auto auto ;
+    
+    justify-content: center;
+}
+
+.button-items
+{
+    padding: 20px;
+    background-color: white;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+
+
+.button-items >button{
+    margin: 10px;    
+    width: 200px;
+    margin-bottom: 80px;
+    
+}
+
+.quiz-content
+{background-color: white;
+margin-left: 50px;
+margin-right: 50px;
+justify-content: center;
+}
+
+.texts
+{
+    color: black;
+    background-color: white;
+}
+
+#result-area
+{
+    margin-left: 50px;
+    margin-right: 50px;
+    background-color: white;
+    padding: 50px;
+    padding-bottom: 100px;
+}
+
+#score  
+{
+    background-color: white;
+    color:#0098f7;
+    font-size: 100px;
+    font-weight: lighter;
+}
+
+#practice
+{
+    
+    background-color: white;
+    font-size: 80px;
+    color: gray;
+}
+
+#resulttxt
+{
+    color: rgb(27, 207, 27);
+    font-size: 50px;
+}
+
+table
+{
+    border-collapse: collapse;
+    
+
+}
+
+
+td
+{
+    color: gray;    
+    background-color: white;
+
+}
+
+#playa
+{
+    margin-top: 20px;
+
+
+
+}
